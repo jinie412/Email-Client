@@ -5,35 +5,35 @@
   },
   "POP3": {
     "server": "127.0.0.1",
-    "port": "3335"
+    "port": 3335
   },
   "Account": {
     "username": "seokjin@gmail.com",
     "password": "123456"
   },
-  "AutoFetch": {
+  "Autoload": {
     "interval": 10
   },
   "FilterRules": [
     {
       "type": "sender",
       "keywords": [
-        { "keyword": "example.com", "folder": "Work" },
-        { "keyword": "workplace.com", "folder": "Personal" }
+        { "keyword": "kth@gmail.com", "folder": "Study" },
+        { "keyword": "seokjin@gmail.com", "folder": "Personal" }
       ]
     },
     {
       "type": "subject",
       "keywords": [
-        { "keyword": "important", "folder": "Important" },
-        { "keyword": "urgent", "folder": "Work" }
+        { "keyword": "check", "folder": "Project" },
+        { "keyword": "hoc", "folder": "Study" }
       ]
     },
     {
       "type": "content",
       "keywords": [
-        { "keyword": "spam", "folder": "Spam" },
-        { "keyword": "advertisement", "folder": "Ads" }
+        { "keyword": "do an", "folder": "Project" },
+        { "keyword": "hoc", "folder": "Study" }
       ]
     },
     {
